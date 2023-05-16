@@ -1,5 +1,4 @@
-
-
+<?php
 $values = [2,3,1];
 
 $outPut = [];
@@ -18,3 +17,5 @@ for($i=0;$i<count($values);$i++){
     array_push($outPut,$values);
 }
 print_r($outPut);
+
+?>
